@@ -15,6 +15,14 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
+.banner{
+    display: flex;
+    gap: 130px;
+}
+.banner img{
+    margin-left: 38px;
+}
+
 .nav-title{
     font-size: 45px;
     font-weight: 800;
@@ -36,7 +44,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 nav ul{
     display: flex;
